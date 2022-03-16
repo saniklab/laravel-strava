@@ -1,13 +1,5 @@
 
-<div style="display: inline: block">
-  <img alt="GitHub release" src="https://img.shields.io/github/release/richiemcmullen/laravel-strava.svg?color=%23FF4A00">
-  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/richiemcmullen/laravel-strava.svg">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/richiemcmullen/laravel-strava.svg">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/richiemcmullen/laravel-strava.svg">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/richiemcmullen/laravel-strava.svg">
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/richiemcmullen/laravel-strava.svg">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/richiemcmullen/laravel-strava.svg">
-</div>
+[![Release](https://img.shields.io/github/release/saniklab/laravel-strava)](https://packagist.org/packages/saniklab/strava)
 
 # Laravel Strava Package
 
@@ -15,44 +7,44 @@ A laravel package to access data from the Strava API. Compatible with ```Laravel
 
 ## Table of Contents
 
-- [Strava Access Credentials](https://github.com/RichieMcMullen/strava#strava-access-credentials)
-- [Installation](https://github.com/RichieMcMullen/strava#installation)
-- [Publish Strava Config File](https://github.com/RichieMcMullen/strava#publish-strava-config-file)
-- [Auto Discovery](https://github.com/RichieMcMullen/strava#auto-discovery)
-  - [Provider](https://github.com/RichieMcMullen/strava#provider)
-  - [Facade](https://github.com/RichieMcMullen/strava#alias--facade)
-- [Usage](https://github.com/RichieMcMullen/strava#usage)
-  - [Initialise Facade](https://github.com/RichieMcMullen/strava#use-strava-facade)
-  - [Authenticate User](https://github.com/RichieMcMullen/strava#authenticate-user)
-  - [Get Access Token](https://github.com/RichieMcMullen/strava#get-access-token)
-  - [Access Token Expiry](https://github.com/RichieMcMullen/strava#access-token-expiry)
-  - [Unauthenticate User](https://github.com/RichieMcMullen/strava#unauthenticate-user)
-- [Available Methods](https://github.com/RichieMcMullen/strava#usage)
-  - [Athlete Data](https://github.com/RichieMcMullen/strava#athelete-data)
-  - [User Activities Data](https://github.com/RichieMcMullen/strava#user-activities-data)
-  - [User Single Activity](https://github.com/RichieMcMullen/strava#user-single-activity)
-  - [User Single Activity Stream](https://github.com/RichieMcMullen/strava#user-single-activity-stream)
-  - [Activity Comments](https://github.com/RichieMcMullen/strava#activity-comments)
-  - [Activity Kudos](https://github.com/RichieMcMullen/strava#activity-kudos)
-  - [Activity Laps](https://github.com/RichieMcMullen/strava#activity-laps)
-  - [Activity Zones](https://github.com/RichieMcMullen/strava#activity-zones)
-  - [Update Activity](https://github.com/RichieMcMullen/strava#update-activity)
-  - [Athlete Zones](https://github.com/RichieMcMullen/strava#athlete-zones)
-  - [Athlete Stats](https://github.com/RichieMcMullen/strava#athlete-stats)
-  - [Club](https://github.com/RichieMcMullen/strava#club)
-  - [Club Members](https://github.com/RichieMcMullen/strava#club-members)
-  - [Club Activities](https://github.com/RichieMcMullen/strava#club-activities)
-  - [Club Admins](https://github.com/RichieMcMullen/strava#club-admins)
-  - [Athlete Clubs](https://github.com/RichieMcMullen/strava#athlete-clubs)
-  - [Gear](https://github.com/RichieMcMullen/strava#gear)
-  - [Route](https://github.com/RichieMcMullen/strava#route)
-  - [Athlete Routes](https://github.com/RichieMcMullen/strava#athlete-routes)
-  - [Segment](https://github.com/RichieMcMullen/strava#segment)
-  - [Segment Effort](https://github.com/RichieMcMullen/strava#segment-effort)
-  - [Starred Segments](https://github.com/RichieMcMullen/strava#starred-segments)
-- [Parameter Types](https://github.com/RichieMcMullen/strava#parameter-types)
-- [Caching](https://github.com/RichieMcMullen/laravel-strava#caching)
-- [Useful Links](https://github.com/RichieMcMullen/laravel-strava#useful-links)
+- [Strava Access Credentials](https://github.com/saniklab/strava#strava-access-credentials)
+- [Installation](https://github.com/saniklab/strava#installation)
+- [Publish Strava Config File](https://github.com/saniklab/strava#publish-strava-config-file)
+- [Auto Discovery](https://github.com/saniklab/strava#auto-discovery)
+  - [Provider](https://github.com/saniklab/strava#provider)
+  - [Facade](https://github.com/saniklab/strava#alias--facade)
+- [Usage](https://github.com/saniklab/strava#usage)
+  - [Initialise Facade](https://github.com/saniklab/strava#use-strava-facade)
+  - [Authenticate User](https://github.com/saniklab/strava#authenticate-user)
+  - [Get Access Token](https://github.com/saniklab/strava#get-access-token)
+  - [Access Token Expiry](https://github.com/saniklab/strava#access-token-expiry)
+  - [Unauthenticate User](https://github.com/saniklab/strava#unauthenticate-user)
+- [Available Methods](https://github.com/saniklab/strava#usage)
+  - [Athlete Data](https://github.com/saniklab/strava#athelete-data)
+  - [User Activities Data](https://github.com/saniklab/strava#user-activities-data)
+  - [User Single Activity](https://github.com/saniklab/strava#user-single-activity)
+  - [User Single Activity Stream](https://github.com/saniklab/strava#user-single-activity-stream)
+  - [Activity Comments](https://github.com/saniklab/strava#activity-comments)
+  - [Activity Kudos](https://github.com/saniklab/strava#activity-kudos)
+  - [Activity Laps](https://github.com/saniklab/strava#activity-laps)
+  - [Activity Zones](https://github.com/saniklab/strava#activity-zones)
+  - [Update Activity](https://github.com/saniklab/strava#update-activity)
+  - [Athlete Zones](https://github.com/saniklab/strava#athlete-zones)
+  - [Athlete Stats](https://github.com/saniklab/strava#athlete-stats)
+  - [Club](https://github.com/saniklab/strava#club)
+  - [Club Members](https://github.com/saniklab/strava#club-members)
+  - [Club Activities](https://github.com/saniklab/strava#club-activities)
+  - [Club Admins](https://github.com/saniklab/strava#club-admins)
+  - [Athlete Clubs](https://github.com/saniklab/strava#athlete-clubs)
+  - [Gear](https://github.com/saniklab/strava#gear)
+  - [Route](https://github.com/saniklab/strava#route)
+  - [Athlete Routes](https://github.com/saniklab/strava#athlete-routes)
+  - [Segment](https://github.com/saniklab/strava#segment)
+  - [Segment Effort](https://github.com/saniklab/strava#segment-effort)
+  - [Starred Segments](https://github.com/saniklab/strava#starred-segments)
+- [Parameter Types](https://github.com/saniklab/strava#parameter-types)
+- [Caching](https://github.com/saniklab/laravel-strava#caching)
+- [Useful Links](https://github.com/saniklab/laravel-strava#useful-links)
 
 ## Strava Access Credentials
 
@@ -64,7 +56,7 @@ In order to use this package you will need to create an app from within your str
 To install the package within your laravel project use the following composer command:
 
 ```shell
-composer require codetoad/strava
+composer require saniklab/strava
 ```
 
 
@@ -73,7 +65,7 @@ composer require codetoad/strava
 The `vendor:publish` commmand will publish a file named `ct_strava.php` within your laravel project config folder `config/ct_strava.php`. Edit this file with your Strava API credentials, generated from the Strava app you created.
 
 ```shell
-php artisan vendor:publish --provider="CodeToad\Strava\StravaServiceProvider"
+php artisan vendor:publish --provider="SanikLab\Strava\StravaServiceProvider"
 ```
 
 Published Config File Contents
@@ -101,13 +93,13 @@ If you're using Laravel 5.5+ you don't need to manually add the service provider
 #### Provider
 
 ```php
-CodeToad\Strava\StravaServiceProvider::class,
+SanikLab\Strava\StravaServiceProvider::class,
 ```
 
 #### Alias / Facade
 
 ```php
-'Strava' => CodeToad\Strava\StravaFacade::class,
+'Strava' => SanikLab\Strava\StravaFacade::class,
 ```
 
 

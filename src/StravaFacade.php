@@ -1,10 +1,9 @@
 <?php
 
-# CodeToad
-# Richie McMullen
-# 2019
+# Nik Saiful Anuar
+# 2022
 
-namespace CodeToad\Strava;
+namespace SanikLab\Strava;
 
 use Illuminate\Support\Facades\Facade;
 

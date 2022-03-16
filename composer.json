@@ -1,5 +1,5 @@
 {
-    "name": "codetoad/strava",
+    "name": "saniklab/strava",
     "description": "A laravel package to access data from the Strava API.",
     "type": "library",
     "require": {
@@ -8,24 +8,24 @@
     },
     "autoload": {
         "psr-4": {
-            "CodeToad\\Strava\\": "src/"
+            "SanikLab\\Strava\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "CodeToad\\Strava\\StravaServiceProvider"
+                "SanikLab\\Strava\\StravaServiceProvider"
             ],
             "aliases": {
-                "Strava": "CodeToad\\Strava\\StravaFacade"
+                "Strava": "SanikLab\\Strava\\StravaFacade"
             }
         }
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Richie McMullen",
-            "email": "richiemcmullen007@gmail.com"
+            "name": "Nik Saiful Anuar",
+            "email": "sanik_90@yahoo.com"
         }
     ],
     "minimum-stability": "dev"
